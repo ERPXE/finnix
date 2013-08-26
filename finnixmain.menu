@@ -1,0 +1,17 @@
+LABEL FINNIX32
+MENU LABEL ^Finnix (32-bit)
+KERNEL er/plugins/finnix/linux
+INITRD er/plugins/finnix/initrd.gz
+APPEND vga=791 ramdisk_size=150000 frominitrd
+TEXT HELP
+                 Finnix 32-bit in normal 1024x768 mode.
+ENDTEXT
+
+LABEL FINNIX64
+MENU LABEL ^Finnix (64-bit)
+KERNEL er/plugins/finnix/linux64
+INITRD er/plugins/finnix/initrd.gz
+APPEND vga=791 ramdisk_size=150000 frominitrd
+TEXT HELP
+                 Finnix 64-bit in normal 1024x768 mode.
+ENDTEXT

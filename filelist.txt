@@ -1,0 +1,8 @@
+.:
+filelist.txt
+finnixmain.menu
+finnix.menu
+finnix.png
+initrd.gz
+linux
+linux64
